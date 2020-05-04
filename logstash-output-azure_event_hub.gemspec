@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.name          = 'logstash-output-azure_event_hub'
   s.version       = GEM_VERSION
   s.licenses      = ['Apache-2.0']
-  s.summary       = 'Writes events to Azure Event Hubs'
-  s.description   = 'This is a Logstash output plugin used to write events to an Azure Event Hub'
+  s.summary       = 'Writes events to an Azure Event Hub'
+  s.description   = 'This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install logstash-output-azure_event_hub. This gem is not a stand-alone program.'
   s.homepage      = 'https://github.com/TheNathanGift/logstash-output_azure_event_hub'
   s.authors       = ['Nathan Gift']
   s.email         = 'nathanjgift@gmail.com'
