@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.licenses      = ['Apache-2.0']
   s.summary       = 'Writes events to Azure Event Hubs'
   s.description   = 'This is a Logstash output plugin used to write events to an Azure Event Hub'
-  s.homepage      = 'https://dev.azure.com/msi-cie/cie-log-processors/_git/logstash-output-azure_event_hub'
-  s.authors       = ['Bryan Lewis']
-  s.email         = 'dbre@micron.com'
+  s.homepage      = 'https://github.com/TheNathanGift/logstash-output_azure_event_hub'
+  s.authors       = ['Nathan Gift']
+  s.email         = 'nathanjgift@gmail.com'
   s.require_paths = ['lib', 'vendor/jar-dependencies']
 
   # Files
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.metadata = {
     "logstash_plugin" => "true",
     "logstash_group" => "output",
-    "source_code_uri" => "https://dev.azure.com/msi-cie/cie-log-processors/_git/logstash-output-azure_event_hub",
+    "source_code_uri" => "https://github.com/TheNathanGift/logstash-output_azure_event_hub",
     "allowed_push_host" => "https://rubygems.org"
   }
 
